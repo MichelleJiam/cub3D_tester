@@ -6,7 +6,7 @@
 #    By: mjiam <mjiam@student.codam.nl>               +#+                      #
 #                                                    +#+                       #
 #    Created: 2020/06/11 14:44:51 by mjiam         #+#    #+#                  #
-#    Updated: 2020/06/11 17:36:31 by mjiam         ########   odam.nl          #
+#    Updated: 2020/06/11 18:35:23 by mjiam         ########   odam.nl          #
 #                                                                              #
 # **************************************************************************** #
 
@@ -51,6 +51,8 @@ else
     ./cub3D cub3d_tester/maps/map_none.cub
     printf "\n${CYAN}Test: invalid open map${RESET}\n"
     ./cub3D cub3d_tester/maps/map_open.cub
+    printf "\n${CYAN}Test: map full of sprites. Should render correctly.${RESET}\n"
+    ./cub3D cub3d_tester/maps/map_sprite.cub
     printf "\n${CYAN}Test: valid open map. Should run correctly.${RESET}\n"
     ./cub3D cub3d_tester/maps/map_openvalid.cub
     printf "\n${PURP}Test: int overflow resolution. Should resize and run correctly.${RESET}\n"
