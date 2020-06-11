@@ -1,0 +1,14 @@
+R 1600 800
+NO cub3d_tester/textures/wall_1.xpm
+SO cub3d_tester/textures/wall_2.xpm
+WE cub3d_tester/textures/wall_3.xpm
+EA cub3d_tester/textures/wall_4.xpm
+S cub3d_tester/textures/sprite_1.xpm
+F 184,113,39
+C 51,198,327
+
+1111111111111
+1020000000021
+100N000000001
+1000002000001
+1111111111111
