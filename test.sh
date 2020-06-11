@@ -6,7 +6,7 @@
 #    By: mjiam <mjiam@student.codam.nl>               +#+                      #
 #                                                    +#+                       #
 #    Created: 2020/06/11 14:44:51 by mjiam         #+#    #+#                  #
-#    Updated: 2020/06/11 16:29:34 by mjiam         ########   odam.nl          #
+#    Updated: 2020/06/11 17:36:31 by mjiam         ########   odam.nl          #
 #                                                                              #
 # **************************************************************************** #
 
@@ -27,6 +27,8 @@ else
     cd ..; ./cub3D cub3d_tester/maps/col_inv.cub
     printf "\n${CYAN}Test: > 255 ceiling colour value${RESET}\n"
     ./cub3D cub3d_tester/maps/col_inv2.cub
+    printf "\n${CYAN}Test: invalid character between colour value${RESET}\n"
+    ./cub3D cub3d_tester/maps/col_inv3.cub
     printf "\n${PURP}Test: duplicate starting direction${RESET}\n"
     ./cub3D cub3d_tester/maps/dir_dup.cub
     printf "\n${PURP}Test: invalid starting direction character${RESET}\n"
@@ -41,6 +43,8 @@ else
     ./cub3D cub3d_tester/maps/tex_invfile.cub
     printf "\n${BLUE}Test: missing East wall texture${RESET}\n"
     ./cub3D cub3d_tester/maps/tex_miss.cub
+    printf "\n${BLUE}Test: space in texture file path${RESET}\n"
+    ./cub3D cub3d_tester/maps/tex_space.cub
     printf "\n${CYAN}Test: newline in map${RESET}\n"
     ./cub3D cub3d_tester/maps/map_nl.cub
     printf "\n${CYAN}Test: missing map${RESET}\n"
