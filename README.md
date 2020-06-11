@@ -1,5 +1,5 @@
 # cub3D_tester
-A script for testing the cub3D project against a variety of valid and invalid inputs.
+A script for testing the cub3D project from the 42 new curriculum against a variety of valid and invalid inputs.
 
 ## Installation
 
