@@ -6,7 +6,7 @@
 #    By: mjiam <mjiam@student.codam.nl>               +#+                      #
 #                                                    +#+                       #
 #    Created: 2020/06/11 14:44:51 by mjiam         #+#    #+#                  #
-#    Updated: 2020/06/15 12:55:02 by mjiam         ########   odam.nl          #
+#    Updated: 2020/06/15 17:40:35 by mjiam         ########   odam.nl          #
 #                                                                              #
 # **************************************************************************** #
 
@@ -29,6 +29,8 @@ else
     ./cub3D cub3d_tester/maps/col_inv2.cub
     printf "\n${CYAN}Test: invalid character between colour value${RESET}\n"
     ./cub3D cub3d_tester/maps/col_inv3.cub
+    printf "\n${CYAN}Test: missing 1 of ceiling colour values${RESET}\n"
+    ./cub3D cub3d_tester/maps/col_inv4.cub
     printf "\n${PURP}Test: duplicate starting direction${RESET}\n"
     ./cub3D cub3d_tester/maps/dir_dup.cub
     printf "\n${PURP}Test: invalid starting direction character${RESET}\n"
