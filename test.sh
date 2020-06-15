@@ -6,7 +6,7 @@
 #    By: mjiam <mjiam@student.codam.nl>               +#+                      #
 #                                                    +#+                       #
 #    Created: 2020/06/11 14:44:51 by mjiam         #+#    #+#                  #
-#    Updated: 2020/06/11 18:35:23 by mjiam         ########   odam.nl          #
+#    Updated: 2020/06/15 12:55:02 by mjiam         ########   odam.nl          #
 #                                                                              #
 # **************************************************************************** #
 
@@ -43,7 +43,7 @@ else
     ./cub3D cub3d_tester/maps/tex_invfile.cub
     printf "\n${BLUE}Test: missing East wall texture${RESET}\n"
     ./cub3D cub3d_tester/maps/tex_miss.cub
-    printf "\n${BLUE}Test: space in texture file path${RESET}\n"
+    printf "\n${BLUE}Test: space in texture file path. Should run correctly.${RESET}\n"
     ./cub3D cub3d_tester/maps/tex_space.cub
     printf "\n${CYAN}Test: newline in map${RESET}\n"
     ./cub3D cub3d_tester/maps/map_nl.cub
@@ -51,6 +51,10 @@ else
     ./cub3D cub3d_tester/maps/map_none.cub
     printf "\n${CYAN}Test: invalid open map${RESET}\n"
     ./cub3D cub3d_tester/maps/map_open.cub
+    printf "\n${CYAN}Test: invalid open map #2${RESET}\n"
+    ./cub3D cub3d_tester/maps/map_open2.cub
+    printf "\n${CYAN}Test: invalid open map #3${RESET}\n"
+    ./cub3D cub3d_tester/maps/map_open3.cub
     printf "\n${CYAN}Test: map full of sprites. Should render correctly.${RESET}\n"
     ./cub3D cub3d_tester/maps/map_sprite.cub
     printf "\n${CYAN}Test: valid open map. Should run correctly.${RESET}\n"
