@@ -6,8 +6,8 @@ EA textures/wood.png
 
 S  textures/sprite_3.xpm
 
-F textures/stone_2.png
-C textures/blue_left.png
+F 184,113,39
+C 51,198,227
 
         111111111111111111111110
         1000000000110000000111211
