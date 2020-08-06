@@ -1,10 +1,10 @@
 R 1600 800
-NO textures/wall_3.xpm
-SO textures/wall_3.xpm
-WE textures/wood.png
-EA textures/wood.png
+NO cub3d_tester/textures/wall_1.xpm
+SO cub3d_tester/textures/wall_2.xpm
+WE cub3d_tester/textures/wall_3.xpm
+EA cub3d_tester/textures/wall_4.xpm
 
-S  textures/sprite_3.xpm
+S  cub3d_tester/textures/sprite_1.xpm
 
 F 184,113,39
 C 51,198,227
